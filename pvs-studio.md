@@ -2,7 +2,7 @@
 
 ## Methodology.
 
-We are checking which questions does PVS-Studio answer for different warnings. We have checked lighttpd-1.43. Our goal is to find question rate.
+We are checking which questions does PVS-Studio answer for different warnings. We have checked lighttpd-1.4.43. Our goal is to find question rate.
 
 ## Intermediate results.
 
@@ -98,17 +98,4 @@ Below are warnings we got (minus some obviously bogus) and their analysis.
 
 * Where: File, line.
 
-## Final results.
-
-* What? 100%
-
-* When? 30.8%
-
-* Where? 100%
-
-* Who? 0%
-
-* Why? 0%
-
-* How to fix? 15.4%
 
