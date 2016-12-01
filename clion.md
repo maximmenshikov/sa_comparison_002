@@ -1,4 +1,11 @@
-# CLion warning informativeness according to 5W+1H system.
+# CLion 2016.3 warning informativeness according to 5W+1H system.
+
+## Environment
+
+* CLion 2016.3
+
+* Ubuntu 16.10
+
 
 ## Methodology.
 
