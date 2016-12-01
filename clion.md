@@ -21,7 +21,7 @@ We are checking which questions does CLion answer for different warnings. We hav
 
 * Where: file, line.
 
-How to fix: buttons to remove condition or to turn it to 1.
+* How to fix: buttons to remove condition or to turn it to 1.
 
 ### Data flow analysis / Not initialized variable / Local variable 'x' might not have been initialized.
 * What: Not initialized variable.
