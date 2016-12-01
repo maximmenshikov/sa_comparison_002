@@ -162,8 +162,8 @@ Below are warnings we got (minus some obviously bogus) and their analysis.
 
 CLion answers to following questions:
 * What? 100%
-* Who? 0%
 * When? 0%
 * Where? 100%
+* Who? 0%
 * Why? 30%
 * How to fix? 75%
