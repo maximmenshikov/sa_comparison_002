@@ -6,6 +6,8 @@ We are checking which questions does CLion answer for different warnings. We hav
 
 ## Intermediate results.
 
+Below are warnings we got (minus some obviously bogus) and their analysis.
+
 ### Data flow analysis / Context-sensitive analysis / Unreachable code.
 * What: Unreachable code.
 
@@ -66,14 +68,14 @@ We are checking which questions does CLion answer for different warnings. We hav
 
 * How to fix: remove branch.
 
-## Type checks / Const expression required / Initializer of the static global variable must be const.
+### Type checks / Const expression required / Initializer of the static global variable must be const.
 * What: Initializer of the static global variable must be const.
 
 * Where: File, line.
 
 * How to fix: Make parameter 'x' const.
 
-## Type checks / Implicit integer and enum conversion / Taking enum type 'x' from integer.
+### Type checks / Implicit integer and enum conversion / Taking enum type 'x' from integer.
 * What: Implicit integer and enum conversion.
 
 * Where: File, line.
@@ -82,7 +84,7 @@ We are checking which questions does CLion answer for different warnings. We hav
 
 * How to fix: Cast expression.
 
-## Type checks / Implicit integer and enum conversion / Enum 'x' has no constant to represent the integer value 'y'.
+### Type checks / Implicit integer and enum conversion / Enum 'x' has no constant to represent the integer value 'y'.
 * What: Implicit integer and enum conversion.
 
 * Where: File, line.
@@ -91,7 +93,7 @@ We are checking which questions does CLion answer for different warnings. We hav
 
 * How to fix: Cast expression to 'x'.
 
-## Type checks / Implicit pointer and integer conversion / Taking integer from pointer 'x*' without a cast.
+### Type checks / Implicit pointer and integer conversion / Taking integer from pointer 'x*' without a cast.
 * What: Implicit pointer and integer conversion.
 
 * Where: File, line.
@@ -100,28 +102,28 @@ We are checking which questions does CLion answer for different warnings. We hav
 
 * How to fix: Cast expression to 'int', change type of parameter 'a' to 'int'.
 
-## Type checks / Incompatible pointers / Parameter type mismatch: Incompatible pointer types 'a*' and 'b*'.
+### Type checks / Incompatible pointers / Parameter type mismatch: Incompatible pointer types 'a*' and 'b*'.
 * What: Parameter type mismatch: Incompatible pointer types 'a*' and 'b*'.
 
 * Where: File, line.
 
 * How to fix: Cast expression, change type.
 
-## Type checks / Incompatible pointers / Incompatible pointer types 'const a* const' and 'a*'.
+### Type checks / Incompatible pointers / Incompatible pointer types 'const a* const' and 'a*'.
 * What: Incompatible pointer types 'const a* const' and 'a*'.
 
 * Where: File, line.
 
 * How to fix: Cast expression, change type.
 
-## Type checks / Redundant cast / Casting expression to 'a*' is redundant.
+### Type checks / Redundant cast / Casting expression to 'a*' is redundant.
 * What: Casting expression to 'a*' is redundant.
 
 * Where: File, line.
 
 * How to fix: Remove redundant cast.
 
-## Type checks / Signedness mismatch / Using 'unsigned a' for signed values of type 'const a'.
+### Type checks / Signedness mismatch / Using 'unsigned a' for signed values of type 'const a'.
 * What: Using 'unsigned a' for signed values of type 'const a'. Signedness mismatch.
 
 * Where: File, line.
@@ -129,7 +131,7 @@ We are checking which questions does CLion answer for different warnings. We hav
 * How to fix: Cast expression to 'unsigned a', change type of parameter 'b' to 'unsigned a *'.
 
 
-## Type checks / Value may not fit into receiver / Values of type 'a' may not fit into the receiver type 'b'.
+### Type checks / Value may not fit into receiver / Values of type 'a' may not fit into the receiver type 'b'.
 * What: Values of type 'a' may not fit into the receiver type 'b'.
 
 * Where: File, line.
@@ -138,7 +140,7 @@ We are checking which questions does CLion answer for different warnings. We hav
 
 * How to fix: Cast expression to 'x', change type of field 'y' to 'x'.
 
-## Unused code / Unused x.
+##$ Unused code / Unused x.
 * What: x is never used.
 
 * Where: File, line.
