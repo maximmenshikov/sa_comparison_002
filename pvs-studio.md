@@ -98,4 +98,17 @@ Below are warnings we got (minus some obviously bogus) and their analysis.
 
 * Where: File, line.
 
+## Final results.
+
+* What? 100%
+
+* When? 30.8%
+
+* Where? 100%
+
+* Who? 0%
+
+* Why? 0%
+
+* How to fix? 15.4%
 
