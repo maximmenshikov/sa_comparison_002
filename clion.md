@@ -140,7 +140,7 @@ Below are warnings we got (minus some obviously bogus) and their analysis.
 
 * How to fix: Cast expression to 'x', change type of field 'y' to 'x'.
 
-##$ Unused code / Unused x.
+### Unused code / Unused x.
 * What: x is never used.
 
 * Where: File, line.
