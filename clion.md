@@ -18,8 +18,8 @@ Below are warnings we got (minus some obviously bogus) and their analysis.
 
 * Where: file, line.
 
-### Data flow analysis / Context-sensitive analysis / Condition is always true (+* When reached).
-* What: Condition is always true (+* When reached)
+### Data flow analysis / Context-sensitive analysis / Condition is always true (+ When reached).
+* What: Condition is always true (+ When reached)
 
 * Where: file, line.
 
@@ -54,10 +54,14 @@ Below are warnings we got (minus some obviously bogus) and their analysis.
 ### General / Simplifiable statement / Expression can be simplified to 'x'.
 * What: Expression can be simplified to 'x'.
 
+* Where: File, line.
+
 * How to fix: 'Simplify expression'.
 
 ### General / Condition is always false.
 * What: Condition is always false.
+
+* Where: File, line.
 
 * How to fix: Button to remove block under condition.
 
@@ -146,3 +150,13 @@ Below are warnings we got (minus some obviously bogus) and their analysis.
 * Where: File, line.
 
 * How to fix: Remove x.
+
+## Final results.
+
+CLion answers to following questions:
+* What? 100%
+* Who? 0%
+* When? 0%
+* Where? 100%
+* Why? 30%
+* How to fix? 75%
