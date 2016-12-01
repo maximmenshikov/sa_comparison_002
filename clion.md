@@ -2,7 +2,7 @@
 
 ## Methodology.
 
-We are checking * Which questions does CLion answer for different warnings. We have checked lighttpd-1.43, and definitely got a lot of false positives. However, our goal is to find question rate.
+We are checking which questions does CLion answer for different warnings. We have checked lighttpd-1.43, and definitely got a lot of false positives. However, our goal is to find question rate.
 
 ## Intermediate results.
 
